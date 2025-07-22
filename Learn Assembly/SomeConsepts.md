@@ -6,6 +6,15 @@
 - Very small: usually only a few dozen registers inside a CPU.
 
 ## Types of Registers
+### ARM Architecture
+#### 1️⃣ General-Purpose Registers (GPRs):
+These are used for somthings like calculations, sorting temporary values, moving data.
+|Register |Nickname |What it does                                               |
+|---------|---------|-----------------------------------------------------------|
+|R0-R12   |-        |Hold numbers or data temporarily. Used in math, loops, etc.|
+|R13      |SP       |**Stack Pointer** - Points to the top of the stack.        |
+|R14      |
+
 ### For x68 Names
 |Types of Register|Purposes|Examples (for x86 Names)|
 | --------------- | ------ | ---------------------- |
@@ -22,13 +31,13 @@
 |Machine Check Registers|Report hardware errors (low-level diagnostics)|Internal, varies|
 
 #### Details:(for x86-64 Names)
-|🔑   |General|Purposes|     |🚀         |Pointer/Index             |Registers   |     |⚠ Flags/Status|Register                               |
-| --- | ---    | ---   | --- | ---        | ---                      | ---        | --- | ---          | ---                                   |
-|Size |8-bit   |16-bit |     |Name        |Purpose                   | Size       |     |Zero Flag     | If result was zero                    |
-|A    |AL      |AX     |     |SP /ESP /RSP|Stack Pointer             |16/32/64-bit|     |Sign Flag     |If result is negative                  |
-|B    |BL      |BX     |     |BP /EBP /RBP|Base Pointer (stack frame)|16/32/64-bit|     |Carry Flag    |If carry occured in math               |
-|C    |CL      |CX     |     |SI /ESI /RSI|Source Index (arrays)     |16/32/64-bit|     |Overflow Flag |If math overflow happened              |
-|D    |DL      |DX     |     |DI /EDI /RDI|Destination Index         |16/32/64-bit|     |Direction Flag|String direction (increment/decurement)|
+|🔑   |General|Purposes|🚀         |Pointer/Index             |Registers   |⚠               |Flags/Status Register                  |
+| --- | ------ | ----- | ---------- | ------------------------ | ---------- | -------------- | ------------------------------------- |
+|Size |8-bit   |16-bit |Name        |Purpose                   | Size       |Zero Flag       | If result was zero                    |
+|A    |AL      |AX     |SP /ESP /RSP|Stack Pointer             |16/32/64-bit|Sign Flag       |If result is negative                  |
+|B    |BL      |BX     |BP /EBP /RBP|Base Pointer (stack frame)|16/32/64-bit|Carry Flag      |If carry occured in math               |
+|C    |CL      |CX     |SI /ESI /RSI|Source Index (arrays)     |16/32/64-bit|Overflow Flag   |If math overflow happened              |
+|D    |DL      |DX     |DI /EDI /RDI|Destination Index         |16/32/64-bit|Direction Flag  |String direction (increment/decurement)|
 
 |🖩      |Floating Point/|SIMD Example       |     |📌Instruction| Pointer|     |🔧 Control|Registers (CRx)|
 | ---   | ---           | ---               | --- | ---          | ---    | --- | ---      | --- |
