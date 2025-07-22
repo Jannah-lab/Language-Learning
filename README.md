@@ -5,6 +5,7 @@ It's **not perfect**. It's **not finished**. It's just me learning, **step by st
 
 ## 📂 What's inside?
 `learn-assembly/`
+
 💡I'm starting from the very **basics**:
 - CPU architerctures
 - Registers
