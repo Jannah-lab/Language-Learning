@@ -187,5 +187,3 @@ These are the most CPUs Architectures:
 - `255`: means "this is a **Decimal number"**= 255 
 - `oxFF`: means "this is a **hexadecimal number"**= 255 in Decimal 
 - `ob111111`: means "this is a **Binary number"**= 255 in Decimal 
-
-Hi
