@@ -1,0 +1,17 @@
+
+
+
+|                                       |#include <iostream> 
+|                                       |using namespace std;               |
+|        self.name = name               |                                   |
+|        self.color = color             |class Cat {                        |
+|                                       |public:                            |
+|    def meow(self):                    |   string name;                    |
+|       print("Meow"!)                  |   string color;                   |
+|                                       |                                   |
+|                                       |   void meaw() {                   |
+|                                       |       cout << "Meow!" << endl;    |
+|                                       |   }                               |
+|                                       |};                                 |
+|---------------------------------------------------------------------------|
+
