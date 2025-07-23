@@ -6,18 +6,6 @@
 - Very small: usually only a few dozen registers inside a CPU.
 
 ## Types of Registers
-## ARM Architecture
-#### 1️⃣ General-Purpose Registers (GPRs):
-These are used for somthings like calculations, sorting temporary values, moving data.
-| Register | Role                 | Short Description                       |
-| -------- | -------------------- | --------------------------------------- |
-| R0-R12   | General-purpose      | Math, data, temporary storage           |
-| R13      | SP (Stack Pointer)   | Tracks function call memory stack       |
-| R14      | LR (Link Register)   | Saves "where to return" after functions |
-| R15      | PC (Program Counter) | Controls next instruction               |
-| CPSR     | Status Register      | Flags about the current state           |
-| SPSR     | Saved Status         | Stores CPSR during exceptions           |
-
 ### For x68 Names
 |Types of Register|Purposes|Examples (for x86 Names)|
 | --------------- | ------ | ---------------------- |
